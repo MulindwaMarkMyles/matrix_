@@ -1,0 +1,1 @@
+This is a simple snake 2D game, i made in c, it emulates the legenadary snake game on older phones, it works well on windows,but for linux just add the conio library to the /usr folder and , it should work, for mac it should work well.
