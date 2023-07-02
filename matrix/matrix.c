@@ -30,11 +30,11 @@ void assign(char **array)
 	int x = rand() % ROWS;
 	int y = rand() % COLS;
 	int turn = 10;
-	int i = 0;
+	int i = rand() % 7;
+	char signs[]  = "@$%&+=x";
 	if (array[x][y] == ' ')
 	{
-		array[x][y] = 'x';
-		i++;
+		array[x][y] = signs[i];
 	}
 }
 
